@@ -1,8 +1,11 @@
 .grid-container1 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3);
   gap: 20px;
   padding: 20px;
+}
+.forcon {
+  text-align: center;
 }
 .column1 {
   padding: 20px;

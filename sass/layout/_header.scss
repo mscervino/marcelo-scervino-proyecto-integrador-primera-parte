@@ -19,7 +19,7 @@
   }
 
   &:checked ~ .search-bar .menu-toggle .menu-toggle__label {
-    background-color: yellow;
+    background-color: #b4ace3;
   }
 }
 
@@ -28,7 +28,7 @@
 /* -------------------------------------------------------- */
 
 .nav-bar {
-  background-color: mediumaquamarine;
+  background-color: #b4ace3;
 
   &__nav-list {
     display: flex;
@@ -42,12 +42,12 @@
 
   &__nav-item {
     text-align: center;
-    background-color: pink;
+    background-color: red;
   }
 
   &__nav-link {
     display: block;
-    background-color: purple;
+    background-color: #b4ace3;
     padding: 1rem 2rem;
     text-decoration: none;
   }
@@ -62,7 +62,7 @@
 /* -------------------------------------------------------- */
 
 .search-bar {
-  background-color: olivedrab;
+  background-color: #36d9d3;
   display: flex;
   justify-content: space-around;
 
@@ -73,29 +73,29 @@
 
   &__form-container {
     padding: 1rem;
-    background-color: gold;
+    background-color: #b4ace3;
     display: flex;
     flex-basis: 100%;
     justify-content: center;
   }
 
   &__form-label {
-    background-color: greenyellow;
+    background-color: #b4ace3;
   }
 
   &__form-search {
-    background-color: deeppink;
+    background-color: white;
     width: 70%;
   }
 
   &__form-submit {
-    background-color: darkslategray;
-    color: white;
+    background-color: rgb(21, 213, 213);
+    color: black;
   }
 
   &__carrito-container {
     flex: 0 0 3rem; /* shorthand (grow shrink basis */
-    background-color: goldenrod;
+    background-color: greenyellow;
   }
 }
 
@@ -113,7 +113,7 @@
 
   &__label {
     display: block;
-    background-color: black;
+    background-color: #36d9d3;
     height: 100%;
     width: 100%;
   }
