@@ -1,0 +1,17 @@
+.grid {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+
+.gird div {
+  background-color: #ecf0f1;
+  padding: 1em;
+}
+
+.grid div:hover {
+  border: 1px solid blue;
+}
+
+h1 {
+  text-align: center;
+}
